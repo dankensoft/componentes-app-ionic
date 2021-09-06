@@ -45,11 +45,6 @@ export class InicioPage implements OnInit {
       redirectTo: '/date-time'
     },
     {
-      icon: 'calendar-outline',
-      name: 'DateTime',
-      redirectTo: '/date-time'
-    },
-    {
       icon: 'car-outline',
       name: 'Fab',
       redirectTo: '/fab'
@@ -58,6 +53,11 @@ export class InicioPage implements OnInit {
       icon: 'grid-outline',
       name: 'Grid',
       redirectTo: '/grid'
+    },
+    {
+      icon: 'infinite-outline',
+      name: 'Infinite-Scroll',
+      redirectTo: '/infinite'
     }
   ];
 
